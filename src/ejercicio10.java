@@ -4,8 +4,9 @@ public class ejercicio10 {
 
     public static String caracter(){
         
-        int caracter=(int) (Math.random()*7 +1);
+        int caracter=(int) (Math.random()*6 +1);
         String devolver="";
+
         switch (caracter) {
             case 1:
                 devolver="*" ;
@@ -21,8 +22,10 @@ public class ejercicio10 {
                 break;
             case 5:
                 devolver="|";
+                break;
             case 6:
                 devolver="@";
+                break;
             default:
                 break;
         }
@@ -38,9 +41,10 @@ public class ejercicio10 {
 
         longitud=(int) (Math.random()*41 +1);
         
+        String devolver=caracter();
         for(int j=1;j<=longitud;j++){
             
-            String devolver=caracter();
+            
             System.out.print(devolver);
         
 

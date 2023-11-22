@@ -61,6 +61,7 @@ public class ejercicio32 {
         return resultado;
     }
 
+    
     public static void camino(int largo){
 
         int espaciado=6;
